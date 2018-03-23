@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.akuanaksehat.registrasi">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGO"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/username"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Email"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="90dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/untukemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="example@yahoo.com"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="90dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/password"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignStart="@+id/email"
+        android:text="Username"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="139dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/untukusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="6-12 Characters"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/retypepassword"
+        android:layout_alignEnd="@+id/username"
+        android:layout_alignRight="@+id/username"
+        android:text="Password"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="190dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/untukpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="password"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/retypepassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/password"
+        android:text="Re-type Password"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="242dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/untukretypepassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="password"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I have agreed attempt license blablabla"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="318dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="397dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
